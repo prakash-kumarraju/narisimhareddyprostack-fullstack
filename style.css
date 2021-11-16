@@ -1,0 +1,55 @@
+.content{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    text-align: center;
+    color:black;
+    
+    
+}
+.content p{
+    font-size: 20px;
+    margin-top: 50x;
+    color: violet;
+}
+.content p{
+    margin: 5px ;
+    font-weight: 20px;
+    line-height: 20px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:rgb(25, 0, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+ span{
+     background:white;
+     height: 200px;
+     width: 0;
+     border-radius: 25px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     transition: 0.5s;
+ }
+ button:hover span{
+     width: 200;
+ }
+ button:hover{
+     border: none;
+     text-align: center;
+ }
+ 
